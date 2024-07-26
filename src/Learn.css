@@ -1,0 +1,34 @@
+@import url('./Theme.css');
+
+.learn-container h1 {
+  text-align: center;
+  padding: 10px;
+  align-items: baseline;
+  color: var(--darkblue);
+}
+
+.exercise-list {
+  text-align: center;
+  list-style-type: none; 
+  padding: 25; 
+}
+
+.exercise-item {
+  color: var(--plum);
+  text-decoration: none; 
+  font-size: 40px;
+  padding: 10px 0; 
+  cursor: pointer; 
+}
+
+.description {
+  font-size: 25px;
+}
+
+.exercise-item:hover {
+  color: var(--darkblue); 
+}
+
+.exercise-item:active {
+  color: var(--dustyblue); 
+}

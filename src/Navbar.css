@@ -1,0 +1,40 @@
+@import url('./Theme.css');
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--dustyblue);
+  padding: 15px 20px;
+}
+
+.navbar-brand a {
+  color: var(--plum);
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: var(--font-primary);
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  display: inline;
+}
+
+.navbar-links a {
+  color: var(--plum);
+  text-decoration: none;
+  font-weight: bold;
+  font-family: var(--font-primary);
+}
+
+.navbar-links a:hover {
+  text-decoration: none; 
+}

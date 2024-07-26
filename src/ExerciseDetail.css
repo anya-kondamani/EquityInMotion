@@ -1,0 +1,53 @@
+@import url('./Theme.css');
+
+.images {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  gap: 20px;
+}
+
+.images img {
+  width: 500px;
+  height: auto;
+}
+
+.description {
+  text-align: center;
+  color: var(--dustyblue);
+}
+.button {
+  background-color: var(--dustyblue); 
+  border: none; 
+  color: var(--plum); 
+  padding: 10px 20px; 
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block; 
+  font-size: 16px; 
+  margin: 10px 10px; 
+  cursor: pointer; 
+  border-radius: 8px; 
+  transition: background-color 0.3s; 
+}
+
+.button:hover {
+  background-color: var(--violet); 
+}
+
+h1 {
+  text-align: center;
+  color: var(--plum);
+}
+
+h2 {
+  text-align: center;
+  color: var(--plum);
+}
+
+.instructions {
+  text-align: center;
+  list-style-type: none; 
+  font-size: 20px;
+  color: var(--darkblue);
+}

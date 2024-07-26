@@ -1,0 +1,11 @@
+:root {
+  --plum: #422A4D;
+  --cream:#dacfcd;
+  --darkblue:#31356E;
+  --dustyblue:#667BA3;
+  --violet:#555179;
+    
+  --font-primary: Optima, sans-serif;
+  --font-heading: Didot, serif;
+  --font-heavy: Times, Times New Roman, serif;
+}

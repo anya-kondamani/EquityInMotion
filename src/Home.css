@@ -1,0 +1,83 @@
+@import url('./Theme.css');
+
+.health-equity-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  max-width: 600px; 
+  margin: 0 auto; 
+  margin-top: 80px;
+  color: var(--darkblue);
+}
+
+.term-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.term-large {
+  font-size: 2em;
+  font-weight: bold;
+  margin-right: 10px; 
+}
+
+.term-small {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+.definition {
+  margin-top: 10px;
+  line-height: 1.5;
+  font-size: 1.5em;
+}
+
+.surrounding-container {
+  max-width: 700px;
+  border-radius: 15px;
+  background: var(--violet);
+  margin-top: 40px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.physical-activity-container {
+  max-width: 600px;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 0 auto;
+  color: var(--plum);
+  font-family: var(--font-heading);
+  background: var(--dustyblue);
+}
+
+.explanation {
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-center;
+}
+
+.types-container {
+  text-align: left;            
+}
+
+.types-container h2 {
+  margin: 5px 0;
+}
+
+.objective-container {
+  max-width: 600px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center; 
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-family: var(--font-heading);
+  color: var(--darkblue);
+}

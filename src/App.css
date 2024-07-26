@@ -1,0 +1,7 @@
+@import url('./Theme.css');
+
+body {
+  background-color: var(--cream); 
+  margin: 0;
+}
+
