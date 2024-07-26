@@ -1,17 +1,5 @@
-## Running React on Replit
+## Equity In Motion
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+This project was submitted to Kode with Klossy's Health Equity challenge in partnership with Deloitte and Deloitte Health Equity Institute.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
-
-Using the two in conjunction is one of the fastest ways to build a web app.
-
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
-
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
-
-### Typescript
-
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+I utilized React, Javascript, CSS and Google's Teachable Machine to complete this project. My objective was to address health inequity from a physical activity perspective. EquityInMotion provides a user experience that consists of learning exercises and yoga poses with detailed instructions and moving on to practicing and correcting form with a machine learning tool. Simple physical activity and exercise can act as a recovery, a preventative measure, and encouragement towards a more active lifestyle. While this effort does not erase the significant hurdles that stand in the way of health equity such as unfair wages and lack of accessible health care, it takes advantage of general accessibility to the internet and provides those who do not have the luxury of physical therapy, yoga and workout classes, and private gyms with the ability to pursue better health.
